@@ -14,6 +14,10 @@ body {
     background-color: #fff;
 }
 
+*:focus {
+    outline: 2px  dotted #DE2E54 ;
+}
+
 /* container */
 
 .container{
@@ -25,5 +29,109 @@ body {
     margin-right: auto;
 
 }
+
+/* SITE-HEADER */
+.site-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+
+.site-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.site-logo {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+}
+
+.site-logo :hover {
+    color: #DE2E54;
+}
+
+.site-logo :active {
+    opacity: 0.6;
+}
+
+.site-logo-img {
+    margin-right: 16px;
+}
+
+
+
+
+/* SITENAV */
+
+
+.site-nav {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sitenav-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 36px;
+}
+
+.sitenav-link {
+    display: block;
+    color: #222;
+    text-decoration: none;
+
+}
+
+.sitenav-link:hover {
+    color: #DE2E54;
+
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
+
+.main-link {
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-family: "Open sans Condensed", "Arail", sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color: #DE2E54;
+    color: #fff;
+}
+
+.main-link:hover {
+    border-color: #DE2E54;
+    background-color: #fff;
+    color: #DE2E54;
+}
+
+.main-link:active {
+    background-color: #DE2E54;
+    color: #fff;
+    opacity: 0.6;
+}
+
 
 
