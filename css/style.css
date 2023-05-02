@@ -15,7 +15,7 @@ body {
 }
 
 *:focus {
-    outline: 2px  dotted #DE2E54 ;
+    outline: 2px  solid #DE2E54 ;
 }
 
 /* container */
@@ -214,6 +214,72 @@ body {
     align-self: flex-end;
 }
 
+/* SERVICES */
+
+.index-services {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.index-services-heading {
+    margin-top: 0;    
+    margin-bottom: 56px;
+    text-align: center;
+    font-family: "Open Sans Condensed","Open Sans" "Arial" , serif;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #222;
+}
+
+.index-services-list {
+    width: 864px;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    list-style: none;  
+}
+
+.index-services-item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.index-service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.index-service-img {
+    width: 200px;
+    height: 200px;
+    margin-right: 64px;
+    border-radius: 24px;
+    object-fit: cover;
+    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+}
+
+.index-service-content {
+    width: 600px;
+}
+
+.index-service-title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #222;
+}
+
+.index-service-doscription {
+
+}
+
+
+.index-services-actions {
+    display: flex;
+    justify-content: center;
+}
 
 /* SITE FOOTER */
 
@@ -231,6 +297,4 @@ body {
 
 }
 
-.site-logo-footer {
 
-}
